@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class number{
-    public:
+    public:   
     int a;
     number(int a1=1)
     {
