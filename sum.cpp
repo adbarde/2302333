@@ -1,3 +1,6 @@
+//feedback link: https://docs.google.com/forms/d/1bDhwhyQeFNOimXPTucxau_ukKXZRNke9VdIrxxW3_ek/edit?usp=drivesdk
+//programs link: https://tinyurl.com/cpplabs2024
+
 #include<iostream>
 using namespace std;
 int main()
