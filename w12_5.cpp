@@ -6,6 +6,10 @@ class Major{
     {
         cout<<"This is the Major Class\n";
     }
+    ~Major()
+    {
+        cout<<"ptr Deleted\n";
+    }
 };
 class Minor: public Major{
     public:
@@ -18,4 +22,5 @@ int main(void)
 {
     Major* ptr=new Minor();
     ptr->show_m();
+    delete ptr;
 }
