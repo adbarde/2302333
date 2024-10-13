@@ -3,7 +3,7 @@ using namespace std;
 class First{
     public:
     int x;
-    virtual void print(int x1)
+    void print(int x1)
     {
         x=x1;
         cout<<"x = "<<x<<endl;
