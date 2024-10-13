@@ -8,6 +8,10 @@ class Books{
     {
         cout<<book1<<endl;
     }
+    ~Books()
+    {
+        cout<<"Pointer is Deleted: destructor called\n";
+    }
 };
 class Algebra : public Books{
     public:
@@ -21,4 +25,5 @@ int main(void)
 {
     Books *ptr=new Algebra();
     ptr->showbook();   
+    delete ptr;
 }
